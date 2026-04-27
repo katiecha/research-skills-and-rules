@@ -1,0 +1,30 @@
+# Research Skills Manifest
+
+skills:
+  - skill: task-router
+    path: task-router/SKILL.md
+    purpose: Route research requests to the appropriate skill
+
+  - skill: read-paper
+    path: read-paper/SKILL.md
+    purpose: Read and analyze research papers using Keshav's three-pass method
+
+  - skill: gather-context
+    path: gather-context/SKILL.md
+    purpose: Gather background needed before reading a paper or surveying a field
+
+  - skill: check-format
+    path: check-format/SKILL.md
+    purpose: Verify read-paper output has all required sections
+
+  - skill: check-evidence
+    path: check-evidence/SKILL.md
+    purpose: Label claims as verified, inference, or unable to verify
+
+  - skill: fallback-handler
+    path: fallback-handler/SKILL.md
+    purpose: Handle failed retrievals or tool errors
+
+  - skill: review-conversation
+    path: review-conversation/SKILL.md
+    purpose: Analyze past conversations to find failure patterns
