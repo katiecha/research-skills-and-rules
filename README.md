@@ -37,3 +37,6 @@ Survey the literature on transformer architectures
 ```
 Do a pass 3 analysis on this PDF: /path/to/paper.pdf
 ```
+
+## Reference
+Based on [Keshav's "How to Read a Paper" paper](https://web.stanford.edu/class/cs114/reading-keshav.pdf)
