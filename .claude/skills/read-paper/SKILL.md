@@ -76,6 +76,9 @@ What type of paper is this?
 - [list any unread references that seem important]
 ```
 
+### GitHub & Code Links
+- [List any GitHub repos, project pages, or dataset URLs mentioned in the paper, or "None found"]
+
 If depth = 1, stop here.
 
 ---
@@ -103,6 +106,18 @@ Focus on:
 |--------------|---------------|-----------------|-------|
 | Fig 1        | ...           | Yes/Partially/No| ...   |
 | Table 2      | ...           | ...             | ...   |
+
+### Key Architectures & Models
+For each major component, identify:
+- **Model/architecture used** (e.g., BERT variant, LLaMA, GNN)
+- **How it was trained/adapted** (pre-trained + fine-tuned? from scratch? distilled?)
+- **What it takes as input / produces as output**
+- **Why this architecture was chosen over alternatives** (if stated)
+
+If the paper combines multiple components into a pipeline, draw the data flow:
+```
+[input] → [component A: model X] → [intermediate] → [component B: model Y] → [output]
+```
 
 ### Evidence Assessment
 - **Strongest evidence:** [what is most convincing]
@@ -161,6 +176,14 @@ If I were to recreate this work:
 - **Methodological issues:** [experimental or analytical problems]
 - **Logical gaps:** [arguments that don't follow]
 - **Threats to validity:** [internal and external]
+
+### Key Statistical & Mathematical Terms
+For each statistical or mathematical concept used in the paper, provide a plain-language definition:
+
+| Term | Definition | Used for |
+|------|------------|----------|
+| [e.g., F1 score] | [Harmonic mean of precision and recall] | [Evaluating gap detection] |
+| ... | ... | ... |
 
 ### Proof/Technique Inventory
 [Techniques used that I can add to my repertoire]
